@@ -22,6 +22,17 @@ $Off-black: hsl(0, 0%, 8%);
 }
 
 // Styles:
+body {
+    background-color: $Off-white;
+    .main {
+        background-color: $White;
+        border-radius: 30px 30px 35% 30px;
+        height: 650px;
+        width: 840px;
+        margin: 170px auto;
+        padding: auto 0;
+    }
+}
 
 
 

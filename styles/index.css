@@ -7,6 +7,18 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: hsl(0, 0%, 94%);
+}
+body .main {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 30px 30px 35% 30px;
+  height: 650px;
+  width: 840px;
+  margin: 170px auto;
+  padding: auto 0;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
