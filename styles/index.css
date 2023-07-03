@@ -18,6 +18,37 @@ body .main {
   margin: 170px auto;
   padding: auto 0;
 }
+body .main .input-date-age {
+  display: flex;
+  height: 200px;
+  margin: 0 240px 47px 55px;
+  padding-top: 50px;
+}
+body .main .input-date-age .input {
+  flex-direction: column;
+}
+body .main .input-date-age .input label {
+  width: 100%;
+  font-size: 0.6rem;
+  color: hsl(0, 1%, 44%);
+  letter-spacing: 0.1rem;
+  padding: 20px 0;
+}
+body .main .input-date-age .input input {
+  all: unset;
+  width: 90%;
+  height: 70px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: hsl(0, 0%, 86%);
+  border-width: 1px;
+}
+body .main .input-date-age .input input::-moz-placeholder {
+  color: hsl(0, 0%, 86%);
+}
+body .main .input-date-age .input input::placeholder {
+  color: hsl(0, 0%, 86%);
+}
 
 .attribution {
   font-size: 11px;
