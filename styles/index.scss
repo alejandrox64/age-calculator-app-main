@@ -8,6 +8,7 @@ $Off-white: hsl(0, 0%, 94%);
 $Light-grey: hsl(0, 0%, 86%);
 $smokey-grey: hsl(0, 1%, 44%);
 $Off-black: hsl(0, 0%, 8%);
+$Off-light-black: hsl(0, 0%, 20%);
 
 // mixins:
 
@@ -81,7 +82,18 @@ body {
                 border-radius: 50%;
                 border-style: none;
                 background-color: $purple;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                &:hover {
+                    cursor: pointer;
+                    background-color: $Off-black;
+                } 
 
+                &:active {
+                    background-color: $Off-light-black;
+                }
             }
         }
 
@@ -89,13 +101,19 @@ body {
             margin: 0 0 0 55px;
             font-style: italic;
             .number, .letter {
-                font-size: 2rem;
-                
+                font-size: 3rem;
                 width: 100%;
                 font-weight: 800;
+                line-height: 3.4rem;
+            }
+            .number {
+                color: $purple;
+                letter-spacing: .3rem;
+            }
+            .letter {
+                width: 70%;
             }
         }
-
     }
 }
 

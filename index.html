@@ -13,39 +13,37 @@
 
   <main class="main">
 
+    <form action="#" class="form">
+      <div class="input-date-age">
 
-    <div class="input-date-age">
+        <div class="input">
+          <label for="date-day">DAY</label>
+          <input type="number" id="date-day" placeholder="DD" name="day">
+        </div>
 
-      <div class="input">
-        <label for="date-day">DAY</label>
-        <input type="number" id="date-day" placeholder="DD" name="day">
+        <div class="input">
+          <label for="date-month">MONTH</label>
+          <input type="number" id="date-month" placeholder="MM" name="month">
+        </div>
+
+        <div class="input">
+          <label for="date-year">YEAR</label>
+          <input type="number" id="date-year" placeholder="YYYY" name="year">
+        </div>
       </div>
 
-      <div class="input">
-        <label for="date-month">MONTH</label>
-        <input type="number" id="date-month" placeholder="MM" name="month">
+
+      <div class="separator-button">
+        <hr>
+        <button><img src="./assets/images/icon-arrow.svg" alt="button"></button>
       </div>
-
-      <div class="input">
-        <label for="date-year">YEAR</label>
-        <input type="number" id="date-year" placeholder="YYYY" name="year">
-      </div>
-
-    </div>
-
-
-    <div class="separator-button">
-      <hr>
-      <button><img src="./assets/images/icon-arrow.svg" alt="button"></button>
-    </div>
-    
+    </form>
 
     <div class="output-age">
 
-      <span class="number year"> -- </span><span class="letter">years</span><br>
-      <span class="number months"> -- </span><span class="letter">months</span><br>
-      <span class="number days"> -- </span><span class="letter">days</span><br>
-
+      <span class="number year"> --</span><span class="letter">years</span><br>
+      <span class="number months"> --</span><span class="letter">months</span><br>
+      <span class="number days"> --</span><span class="letter">days</span><br>
 
     </div>
   </main>
@@ -54,5 +52,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </footer>
+  <script src="./scripts/index.js"></script>
 </body>
 </html>

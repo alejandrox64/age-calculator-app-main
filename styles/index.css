@@ -69,15 +69,33 @@ body .main .separator-button button {
   border-radius: 50%;
   border-style: none;
   background-color: hsl(259, 100%, 65%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .main .separator-button button:hover {
+  cursor: pointer;
+  background-color: hsl(0, 0%, 8%);
+}
+body .main .separator-button button:active {
+  background-color: hsl(0, 0%, 20%);
 }
 body .main .output-age {
   margin: 0 0 0 55px;
   font-style: italic;
 }
 body .main .output-age .number, body .main .output-age .letter {
-  font-size: 2rem;
+  font-size: 3rem;
   width: 100%;
   font-weight: 800;
+  line-height: 3.4rem;
+}
+body .main .output-age .number {
+  color: hsl(259, 100%, 65%);
+  letter-spacing: 0.3rem;
+}
+body .main .output-age .letter {
+  width: 70%;
 }
 
 .attribution {
