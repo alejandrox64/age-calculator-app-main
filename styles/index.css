@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap");
 * {
   font-family: "Poppins", sans-serif;
@@ -98,6 +99,37 @@ body .main .output-age .letter {
   width: 70%;
 }
 
+@media screen and (max-width: 900px) {
+  #main {
+    border-bottom-right-radius: 19.5%;
+    width: 600px;
+    height: 750px;
+  }
+  #main .form {
+    width: 600px;
+  }
+  #main .form .input-date-age {
+    width: 80%;
+    margin-right: 55px;
+  }
+  #main .form .input-date-age .input input {
+    width: 90%;
+  }
+  #main .form .separator-button {
+    width: 77.6%;
+    margin-top: 55px;
+    margin-bottom: 50px;
+  }
+  #main .form .separator-button button {
+    position: absolute;
+    left: 43.5%;
+  }
+  #main .output-age .number,
+  #main .output-age .letter {
+    font-size: 2.5rem; /* Tamaño de fuente ajustado */
+    font-weight: 800; /* Peso de fuente ajustado */
+  }
+}
 .attribution {
   font-size: 11px;
   text-align: center;

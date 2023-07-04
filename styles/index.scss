@@ -117,28 +117,43 @@ body {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 900px) {
+    #main { 
+        border-bottom-right-radius: 19.5%;
+        width: 600px;
+        height: 750px;
+       
+        .form {
+            width: 600px;
+            .input-date-age {
+                width: 80%;
+                margin-right: 55px;
+                .input {
+                    input {
+                        width: 90%;
+                    }
+                }
+            }
+            .separator-button {
+                width: 77.6%;
+                margin-top: 55px;
+                margin-bottom: 50px;
+                
+                button {
+                    position: absolute;
+                    left: 43.5%;
+                }
+            } 
+        }
+        .output-age {
+            .number,
+            .letter {
+              font-size: 2.5rem; /* Tamaño de fuente ajustado */
+              font-weight: 800; /* Peso de fuente ajustado */
+            }
+          }
+    }
+}
 
 
 
