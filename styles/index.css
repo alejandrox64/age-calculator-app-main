@@ -20,8 +20,7 @@ body .main {
 }
 body .main .input-date-age {
   display: flex;
-  height: 200px;
-  margin: 0 240px 47px 55px;
+  margin: 0 240px 0 55px;
   padding-top: 50px;
 }
 body .main .input-date-age .input {
@@ -48,6 +47,37 @@ body .main .input-date-age .input input::-moz-placeholder {
 }
 body .main .input-date-age .input input::placeholder {
   color: hsl(0, 0%, 86%);
+}
+body .main .separator-button {
+  margin: 0 57px 0 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 730px;
+  height: 100px;
+}
+body .main .separator-button hr {
+  flex-grow: 1;
+  border: none;
+  border-radius: 2px;
+  border-top: 5px solid hsl(0, 0%, 86%);
+  width: 50%;
+}
+body .main .separator-button button {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  border-style: none;
+  background-color: hsl(259, 100%, 65%);
+}
+body .main .output-age {
+  margin: 0 0 0 55px;
+  font-style: italic;
+}
+body .main .output-age .number, body .main .output-age .letter {
+  font-size: 2rem;
+  width: 100%;
+  font-weight: 800;
 }
 
 .attribution {
